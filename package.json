@@ -1,0 +1,35 @@
+{
+  "name": "miushi",
+  "version": "1.0.0",
+  "description": "food ordering site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizavetaRogacheva/miushi.git"
+  },
+  "keywords": [
+    "order",
+    "food",
+    "delivery"
+  ],
+  "author": "Elizaveta Rogacheva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizavetaRogacheva/miushi/issues"
+  },
+  "homepage": "https://github.com/ElizavetaRogacheva/miushi#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}
