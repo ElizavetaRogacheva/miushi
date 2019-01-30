@@ -1,5 +1,14 @@
-@import "blocks/blockone.scss";
-@import "blocks/blocktwo.scss";
-@import "blocks/blockthree.scss";
+$orange: #fd4f10;
+$green: #84c604;
+$deep-green: #1fba0a;
+$dark-gray: #1a2d34;
+$gray: #6b96a5;
+$deep-gray: #32505a;
+$font-gray: #656565;
+$menu-gray:#444444;
 
+$desktop: 1200px;
+$tablets: 768px;
+$phones: 480px;
 
+@import "media.scss";

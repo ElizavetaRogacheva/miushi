@@ -23,13 +23,13 @@ function styles() {
 }
 
 function scripts() {
-  return gulp.src('app/js/**/*.js')
+  return src('app/js/**/*.js')
     .pipe(uglify())
     .pipe(dest('./dist/js'))
 }
 
 function images() {
-  return gulp.src('app/img/*.*')
+  return src('app/img/*.*')
     .pipe(imagemin()) 
     .pipe(dest('./dist/img'));
 }
@@ -59,11 +59,11 @@ function serve() {
 
 exports.styles = styles;
 exports.scripts = scripts;
-exports.imagemin = imagemin;
+exports.images = images;
 exports.copyHtml = copyHtml;
 exports.serve = serve;
 
-exports.default = series(parallel(styles, scripts, imagemin, copyHtml), parallel(watcher, serve));
+exports.default = series(parallel(styles, scripts, images, copyHtml), parallel(watcher, serve));
 
 
 
