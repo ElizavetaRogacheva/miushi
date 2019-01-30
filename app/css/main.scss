@@ -1,28 +1,5 @@
-.wrapper {
-    display: flex;
-    flex-direction: column;
-}
+@import "blocks/blockone.scss";
+@import "blocks/blocktwo.scss";
+@import "blocks/blockthree.scss";
 
-.block {
-    border: 5px, solid, green;
-    width: 300px;
-    height: 500px;
-    margin-bottom: 20px;
-
-    &--one {
-        background-color: gold;
-    }
-
-    &--two {
-        background-color:  orangered;
-    }
-
-    &--three {
-        background-color: lightcoral;
-    }
-
-    &--four {
-        background-color: indigo;
-    }
-};
 
