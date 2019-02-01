@@ -11,11 +11,11 @@
 
 @font-face {
 	font-family: 'Myriad Pro';
-	src: url('MyriadPro-BlackIt.eot');
+	src: url('../fonts/MyriadPro-BlackIt.eot');
 	src: local('Myriad Pro Black Italic'), local('MyriadPro-BlackIt'),
-		url('MyriadPro-BlackIt.eot?#iefix') format('embedded-opentype'),
-		url('MyriadPro-BlackIt.woff') format('woff'),
-		url('MyriadPro-BlackIt.ttf') format('truetype');
+		url('../fonts/MyriadPro-BlackIt.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-BlackIt.woff') format('woff'),
+		url('../fonts/MyriadPro-BlackIt.ttf') format('truetype');
 	font-weight: 900;
     font-style: italic;
 }

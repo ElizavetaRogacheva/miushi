@@ -2,23 +2,20 @@
     margin: 0 auto;
     background-color: gold;
     position: relative;
+    width: rem(1140px);
 }
 
 .main__header-top {
     display: flex;
     align-items: center;
-    border: 5px solid green;
-    margin: 0 auto;
-    width: 60%;
     justify-content: space-between;
+    padding-left: rem(20px);
+    border-bottom: 1px solid #f2f2f2;
 }
-
-
 
 .info-nav__list {
     display: flex;
     align-items: center;
-    background-color: hotpink;
     min-height: rem(100px);
     font-family: "Myriad Pro";
     font-size: rem(14px);
@@ -27,11 +24,36 @@
 }
 
 .info-nav__item {
-
+    margin-right: rem(60px);
 }
 
 .main-nav__list {
     display: flex;
     align-items: center;
     background-color: darkcyan;
+}
+
+.info-nav__phone {
+    font-family: "Open Sans";
+    font-size: rem(18px);
+    font-weight: 700;
+}
+
+.info-nav__worktime {
+    font-family: "Open Sans";
+    font-size: rem(10px);
+    font-weight: 400;
+}
+
+.info-nav__call-btn {
+    font-family: "Open Sans";
+    font-size: rem(13px);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: rem(0.65px);
+    background-color: transparent;
+    color: $deep-green;
+    border: 1px solid $deep-green;
+    border-radius: rem(5px);
+    padding: rem(10px);
 }
