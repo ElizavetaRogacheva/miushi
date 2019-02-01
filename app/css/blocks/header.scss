@@ -26,6 +26,33 @@
     margin-right: rem(60px);
 }
 
+.info-nav__address {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: rem(11px);
+        height: rem(16px);
+        left: rem(-20px);
+        background: url(../../img/maps-and-flags.png) center center / cover no-repeat;
+    }
+}
+
+.info-nav__mail {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: rem(12px);
+        height: rem(9px);
+        left: rem(-20px);
+        top: rem(5px);
+        background: url(../../img/envelope.png) center center / cover no-repeat;
+    }
+}
+
 
 .info-nav__phone {
     font-family: "Open Sans";
@@ -103,6 +130,32 @@
     &:hover {
         background-color: $green;
         color: #fff;
+    }
+
+    &--cabinet {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: rem(22px);
+            height: rem(22px);
+            left: rem(0px);
+            background: url(../../img/user.png) center center / cover no-repeat;
+        }
+    }
+
+    &--basket {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: rem(23px);
+            height: rem(21px);
+            left: rem(0px);
+            background: url(../../img/cart.png) center center / cover no-repeat;
+        }
     }
 }
 
