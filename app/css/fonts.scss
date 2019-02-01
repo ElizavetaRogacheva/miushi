@@ -19,3 +19,11 @@
 	font-weight: 900;
     font-style: italic;
 }
+
+@font-face {
+	font-family: "LemonTuesday";
+		src: url("../fonts/Lemon-Tuesday.woff2") format("woff"), /* Modern Browsers */
+			 url("../fonts/Lemon-Tuesday.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
