@@ -56,4 +56,10 @@
     border: 1px solid $deep-green;
     border-radius: rem(5px);
     padding: rem(10px);
+    cursor: pointer;
+
+         &:hover {
+            background-color: $deep-green;
+            color: #fff;
+         }
 }
