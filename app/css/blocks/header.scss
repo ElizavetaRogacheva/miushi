@@ -60,12 +60,14 @@
 
 .main__header-bottom {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 rem(30px);
+    height: rem(50px);
     font-family: "Open Sans - Semi Bold";
     font-size: rem(14px);
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: rem(0.7px);
-    color: #ffffff;
     letter-spacing: rem(0.7px);
     color: #000000;
 }
@@ -73,12 +75,34 @@
 .main-nav__list {
     display: flex;
     align-items: center;
-    background-color: yellowgreen;
+    height: 100%;
 }
+
 
 
 .customer-block__list {
     display: flex;
     align-items: center;
-    background-color: salmon;
 }
+
+.main-nav__link {
+    color: #000000;
+    padding: rem(15px) rem(30px);
+
+    &:hover {
+        background-color: $green;
+        color: #fff;
+    }
+
+}
+
+.customer-block__link {
+    color: #000000;
+    padding: rem(15px) rem(30px);
+
+    &:hover {
+        background-color: $green;
+        color: #fff;
+    }
+}
+
