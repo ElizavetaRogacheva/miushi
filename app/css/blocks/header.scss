@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: rem(20px);
     border-bottom: 1px solid #f2f2f2;
 }
 
@@ -23,15 +22,10 @@
     justify-content: space-between;
 }
 
-.info-nav__item {
+.info-nav__item:not(:last-child) {
     margin-right: rem(60px);
 }
 
-.main-nav__list {
-    display: flex;
-    align-items: center;
-    background-color: darkcyan;
-}
 
 .info-nav__phone {
     font-family: "Open Sans";
@@ -62,4 +56,21 @@
             background-color: $deep-green;
             color: #fff;
          }
+}
+
+.main__header-bottom {
+    display: flex;
+}
+
+.main-nav__list {
+    display: flex;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+
+.customer-block__list {
+    display: flex;
+    align-items: center;
+    background-color: salmon;
 }
