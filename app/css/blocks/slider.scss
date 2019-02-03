@@ -1,0 +1,75 @@
+.slider-section {
+    width: 100%;
+    background-color: gold;
+    height: rem(675px);
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    //overflow: hidden;
+}
+
+.slider__container {
+    height: 100%;
+}
+
+.slider__list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__item {
+    min-width: 100%;
+    height: 100%;
+    background-color: #291e30;
+
+    &--first {
+        background: url(../../img/Карта_градиента_784.jpg) center center / cover no-repeat;
+    }
+
+    &--second {
+        background: url(../../img/ow9ldfpcdivl.jpg) center center / cover no-repeat;
+    }
+
+    &--third {
+        background: url(../../img/land-rolls-land-japanese-food-soy-sauc.jpg) center center / cover no-repeat;
+    }
+}
+
+.slider__content {
+    padding-top: rem(81px);
+    padding-left: rem(394px);
+}
+
+.slider__title {
+    width: rem(506px);
+    font-family: "LemonTuesday";
+    font-size: rem(110px);
+    font-weight: 400;
+    line-height: rem(100px);
+    color: $green;
+    margin-bottom: rem(50px);
+}
+
+.slider__info-worktime {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: rem(26px);
+    font-style: italic;
+    margin-bottom: rem(56px);
+
+}
+
+.slider__btn {
+    color: #fefffe;
+    font-family: "Open Sans";
+    font-size: rem(16px);
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    background-color: $orange;
+    padding: rem(21px) rem(74px);
+    border-radius: rem(3px);
+}
