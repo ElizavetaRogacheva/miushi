@@ -6,6 +6,7 @@ autoprefixer = require('autoprefixer');
 cssnano = require('cssnano');
 uglify = require('gulp-uglify');
 imagemin = require('gulp-imagemin');
+svgSprite = require('gulp-svg-sprite');
 
 var reload = browserSync.reload;
 
@@ -14,6 +15,11 @@ var plugins = [
   cssnano()
 ];
 
+var config = {
+  mode: {
+    symbol: true // Activate the «symbol» mode
+  }
+};
 
 function styles() {
   return src('./app/css/main.scss')
@@ -39,6 +45,12 @@ function copyHtml() {
     .pipe(dest('./dist'))
 }
 
+function spriteSvg() {
+  return src('app/img/svg/*.svg')
+    .pipe(svgSprite(config))
+    .pipe(dest('./dist/img/svg'));
+}
+
 function watcher() {
   watch('app/css/**/*.scss', styles);
   watch('app/*.html', copyHtml);
@@ -62,6 +74,7 @@ exports.scripts = scripts;
 exports.images = images;
 exports.copyHtml = copyHtml;
 exports.serve = serve;
+exports.spriteSvg = spriteSvg;
 
 exports.default = series(parallel(styles, scripts, images, copyHtml), parallel(watcher, serve));
 
