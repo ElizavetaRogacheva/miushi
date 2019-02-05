@@ -111,6 +111,11 @@
     font-size: 0;
     z-index: 2;
 
+    &:hover {
+        background-color: rgba( #000000, 0.6);
+ 
+    }
+
 
     &--prev {
         left: rem(156px);
