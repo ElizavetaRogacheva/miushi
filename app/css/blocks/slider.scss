@@ -73,6 +73,11 @@
     background-color: $orange;
     padding: rem(21px) rem(74px);
     border-radius: rem(3px);
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($orange, 10%);
+    }
 }
 
 
