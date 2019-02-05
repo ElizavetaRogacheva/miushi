@@ -32,6 +32,16 @@
     background-color: transparent;
     border-radius: 50%;
     padding: rem(11px);
+
+    &:hover {
+        background-color: $green;
+    }
+}
+
+.slider-active {
+    padding: rem(13px);
+    border: none;
+    background-color: $green;
 }
 
 
