@@ -39,6 +39,7 @@
 }
 
 .slider__content {
+    position: relative;
     padding-top: rem(81px);
     padding-left: rem(394px);
 }
@@ -72,4 +73,26 @@
     background-color: $orange;
     padding: rem(21px) rem(74px);
     border-radius: rem(3px);
+}
+
+
+.slider__sticker {
+    position: absolute;
+    width: rem(141px);
+    height: rem(141px);
+    background: linear-gradient(to bottom, #de2024, #b81f24);
+    border-radius: 50%;
+    text-align: center;
+    top: rem(112px);
+    left: rem(972px);
+
+}
+
+.slider__sticker-text {
+    line-height: rem(32px);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: rem(29px);
+    font-weight: 700;
+    margin: 30% 0;
 }
