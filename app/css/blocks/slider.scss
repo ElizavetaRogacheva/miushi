@@ -59,6 +59,7 @@
     min-width: 100%;
     height: 100%;
     background-color: #291e30;
+    display: flex !important;
 
     &--first {
         background: url(../../img/Карта_градиента_784.jpg) center center / cover no-repeat;
@@ -77,16 +78,17 @@
     position: relative;
     padding-top: rem(81px);
     padding-left: rem(394px);
+    min-height: 100%;
 }
 
 .slider__title {
     width: rem(506px);
+    height: rem(300px);
     font-family: "LemonTuesday";
     font-size: rem(110px);
     font-weight: 400;
     line-height: rem(100px);
     color: $green;
-    margin-bottom: rem(50px);
 }
 
 .slider__info-worktime {
@@ -109,6 +111,7 @@
     padding: rem(21px) rem(74px);
     border-radius: rem(3px);
     cursor: pointer;
+    margin-bottom: rem(154px);
 
     &:hover {
         background-color: darken($orange, 10%);
