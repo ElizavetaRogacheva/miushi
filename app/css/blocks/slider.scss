@@ -10,34 +10,6 @@
     overflow: hidden;
 }
 
-/*.slider-nav {
-    z-index: 20;
-    position: absolute;
-    left: 50%;
-    transform: translateX(rem(-47.5px));
-    top: rem(595px);
-}
-
-.slider-nav__list {
-    display: flex;
-}
-
-.slider-nav__item:not(:last-child) {
-    margin-right: rem(25px);
-}
-
-.slider-nav__link {
-    font-size: 0;
-    border: 2px solid #c2c2c2;
-    background-color: transparent;
-    border-radius: 50%;
-    padding: rem(11px);
-
-    &:hover {
-        background-color: $green;
-    }
-}*/
-
 .slick-dots {
 	display: flex;
     justify-content: center;
