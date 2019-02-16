@@ -1,18 +1,16 @@
 .products__list {
-    background-color: lightcoral;
     width: rem(1137px);
     margin: 0 auto;
 }
 
 .products__item {
-    background-color: thistle;
     border-bottom: 1px solid blue;
 }
 
 .product__block {
-    background-color: chartreuse;
     width: rem(1137px);
     padding-top: rem(83px);
+    overflow: hidden;
 
 }
 
@@ -50,14 +48,12 @@
 }
 
 .product-carousel {
-    background-color: lightgreen;
-    border: 1px solid sandybrown;
+    padding-bottom: rem(80px);
 }
 
 .product-carousel__list {
     display: flex;
     width: rem(1137px);
-    overflow: hidden;
 }
 
 .product__card {
@@ -65,11 +61,15 @@
     width: rem(263px);
     background-color: orange;
     border-radius: rem(10px);
-    border: 1px solid black;
-    box-shadow: 0 0 20px 0 #c7c6c6a4;
-    margin-right:  rem(25px); 
+    box-shadow: 0 0 20px 0 #38353596;
+    margin-right:  rem(28px); 
 
     &:last-child {
         margin: 0;
     }
+}
+
+.product__img {
+    border-top-left-radius: rem(10px);
+    border-top-right-radius: rem(10px);
 }
