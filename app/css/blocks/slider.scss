@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 
-.slider-nav {
+/*.slider-nav {
     z-index: 20;
     position: absolute;
     left: 50%;
@@ -36,6 +36,45 @@
     &:hover {
         background-color: $green;
     }
+}*/
+
+.slick-dots {
+	display: flex;
+    justify-content: center;
+    z-index: 20;
+    position: absolute;
+    left: 50%;
+    transform: translateX(rem(-47.5px));
+    top: rem(595px);
+		
+	list-style-type: none;
+	
+		li:not(:last-child) {
+			margin-right: rem(25px);;
+		}
+	
+		button {
+            cursor: pointer;
+            display: block;
+            width: rem(11px);
+            height: rem(11px);
+			border: 2px solid #c2c2c2;
+            background-color: transparent;
+            border-radius: 50%;
+            padding: rem(11px);
+            text-indent: -9999px;
+            
+            &:hover {
+                background-color: $green;
+            }
+		}
+	
+		li.slick-active button {
+            background-color: $green;
+            border-color: $green;
+            outline: transparent;
+		}
+	
 }
 
 .slider-active {
