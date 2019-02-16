@@ -1,5 +1,5 @@
 .products__list {
-    width: rem(1137px);
+    width: rem(1165px);
     margin: 0 auto;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .product__block {
-    width: rem(1137px);
+    width: rem(1165px);
     padding-top: rem(83px);
     overflow: hidden;
 
@@ -53,15 +53,15 @@
 
 .product-carousel__list {
     display: flex;
-    width: rem(1137px);
+    width: rem(1165px);
+    padding: 0 rem(14px);
 }
 
 .product__card {
     height: rem(461px);
     width: rem(263px);
-    background-color: orange;
     border-radius: rem(10px);
-    box-shadow: 0 0 20px 0 #38353596;
+    box-shadow: 0 0 20px 0 #534d4d96;
     margin-right:  rem(28px); 
 
     &:last-child {
@@ -72,4 +72,97 @@
 .product__img {
     border-top-left-radius: rem(10px);
     border-top-right-radius: rem(10px);
+    margin-bottom: rem(20px);
+}
+
+.product__title {
+    font-family: "Open Sans";
+    font-size: rem(20px);
+    font-weight: 700;
+    line-height: rem(28.43px);
+    text-align: center;
+    margin-bottom: rem(15px);
+}
+
+.product__description-text {
+    font-size: rem(12px);
+    font-weight: 300;
+    line-height: rem(15px);
+    text-align: center;
+    margin-bottom: rem(15px);
+}
+
+.product__sale-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: rem(15px);
+
+}
+
+.product__price {
+    font-family: "Roboto Slab";
+    font-size: rem(22px);
+    font-weight: 700;
+    line-height: rem(28.43px);
+}
+
+.product__amount {
+    display: flex;
+    align-items: center;
+    width: rem(63px);
+    justify-content: space-between;
+}
+
+.product-amount__btn {
+    width: rem(13px);
+    height: rem(13px);
+    border: 1px solid #808080;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.product-amount__input {
+    width: rem(20px);
+    height: rem(12px);
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    line-height: rem(28.43px);
+}
+
+.product__btn-basket {
+    border-radius: rem(5px);
+    background-color: $orange;
+    border: none;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: rem(14px);
+    font-weight: 400;
+    line-height: rem(28.43px);
+    text-transform: uppercase;
+    letter-spacing: rem(0.7px);
+    padding: rem(15px) rem(78px) rem(14px) rem(32px);
+    cursor: pointer;
+    margin: 0 rem(34px);
+    position: relative;
+
+    &:hover {
+        background-color: darken($orange, 10%);
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: rem(22px);
+        height: rem(20px);
+        right: rem(30px);
+        top: rem(17px);
+        background: url(../../img/online-shopping-cart_копия.png);
+        background-repeat: no-repeat;
+    }
 }
