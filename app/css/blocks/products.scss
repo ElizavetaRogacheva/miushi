@@ -12,9 +12,42 @@
 .product__block {
     background-color: chartreuse;
     width: rem(1137px);
+    padding-top: rem(83px);
 
 }
 
+.products__title {
+    color: #32505a;
+    font-family: "LemonTuesday";
+    font-size: rem(60px);
+    font-weight: 400;
+    line-height: rem(28.43px);
+    margin-bottom: rem(46px);
+    text-align: center;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: rem(109px);
+        height: rem(40px);
+        left: rem(200px);
+        background-image: url(../../img/Слой_519.png);
+        background-repeat: no-repeat;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: rem(109px);
+        height: rem(40px);
+        right: rem(200px);
+        background-image: url(../../img/Слой_519.png);
+        background-repeat: no-repeat;
+        transform: scale(-1, 1);
+
+    }
+}
 
 .product-carousel {
     background-color: lightgreen;
