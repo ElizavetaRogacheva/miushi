@@ -58,11 +58,11 @@
 }
 
 .product__card {
-    height: rem(461px);
     width: rem(263px);
     border-radius: rem(10px);
     box-shadow: 0 0 20px 0 #534d4d96;
     margin-right:  rem(28px); 
+    padding-bottom: rem(40px);
 
     &:last-child {
         margin: 0;
@@ -165,4 +165,72 @@
         background: url(../../img/online-shopping-cart_копия.png);
         background-repeat: no-repeat;
     }
+}
+
+
+.additive__amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: rem(193px);
+    margin: 0 rem(34px) rem(14px);
+}
+
+.additive__text {
+    color: #000000;
+    font-size: rem(12px);
+    font-weight: 400;
+    line-height: rem(28.43px);
+}
+
+.additive__input {
+    width: rem(40px);
+    height: rem(20px);
+    border-radius: rem(3px);
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.additive__btn {
+    cursor: pointer;
+    font-size: 0;
+    line-height: 0;
+    border: none;
+    min-width: rem(7px);
+    height: rem(7px);
+    padding: 0;
+    background: url(../../img/Фигура_624_копия.png) center center / cover no-repeat;
+    position: absolute;
+}
+
+.additive__price {
+    font-size: rem(12px);
+    font-weight: 300;
+    line-height: rem(28.43px);
+}
+
+.additive__btn-plus {
+    cursor: pointer;
+    font-size: 0;
+    width: rem(19px);
+    height: rem(19px);
+    border-radius: rem(3px);
+    padding: 0;
+    border: none;
+    background-image: url(../../img/Фигура_624_копия_2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fd4f10;
+
+}
+
+.additive__select {
+    width: rem(193px);
+    height: rem(25px);
+    border-radius: rem(3px);
+    background-color: #f2f2f2;
+    border: none;
+    margin: 0 rem(34px);
+    margin-bottom: rem(14px);
 }
