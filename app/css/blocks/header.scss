@@ -124,7 +124,7 @@
 
 .customer-block__link {
     color: #000000;
-    padding: rem(15px) rem(30px);
+    padding: rem(15px) rem(25px) rem(15px) rem(35px);
 
     &:hover {
         background-color: $green;
@@ -139,7 +139,8 @@
             position: absolute;
             width: rem(22px);
             height: rem(22px);
-            left: rem(0px);
+            left: rem(5px);
+            top: rem(13px);
             background: url(../../img/user.png) center center / cover no-repeat;
         }
     }
@@ -152,7 +153,8 @@
             position: absolute;
             width: rem(23px);
             height: rem(21px);
-            left: rem(0px);
+            left: rem(5px);
+            top: rem(13px);
             background: url(../../img/cart.png) center center / cover no-repeat;
         }
     }
